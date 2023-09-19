@@ -1,6 +1,7 @@
 import React from "react";
 import FormatDate from "./FormatDate";
 import Units from "./Units";
+import DateFormatted from "./DateFormatted";
 
 export default function Climate(props) {
   return (
@@ -9,6 +10,7 @@ export default function Climate(props) {
         <h1>{props.data.city}</h1>
         <ul>
           <li>
+            <DateFormatted />
             <FormatDate date={props.data.date} />
           </li>
           <li className="text-capitalize"> {props.data.description}</li>
@@ -26,7 +28,7 @@ export default function Climate(props) {
             <Units celsius={props.data.temperature} />
           </div>
         </div>
-        <div className="col-6">
+        <div className="col-6 weather-body">
           <ul>
             <li>Feels like: {props.data.feel} ℃ </li>
             <li>Humidity: {props.data.humidity}%</li>

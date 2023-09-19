@@ -11,9 +11,10 @@ function App() {
             href="https://www.linkedin.com/in/sheillah-wafula-5279b3182/"
             target="blank"
           >
-            Sheillah,
-          </a>{" "}
-          open sourced on
+            {" "}
+            Sheillah
+          </a>
+          , open sourced on
           <a
             href="https://github.com/Sheillah27/weather-react23"
             target="-blank"

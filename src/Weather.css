@@ -1,6 +1,8 @@
 .App {
   margin: 0 auto;
   width: 600px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-weight: 200;
 }
 .weather {
   padding: 10px 10px 10px 10px;
@@ -8,12 +10,18 @@
   margin-top: 50px;
   border-radius: 10px;
   background-color: #fffbfa;
+  margin: 10 auto;
 }
 .weather li {
   list-style: none;
+  font-size: 16px;
+
+  margin-left: 5px;
 }
 .weather h1 {
+  font-size: 36px;
   margin: 20px 0 0 0;
+  margin-left: 5px;
 }
 .temperature {
   font-weight: bold;
@@ -23,6 +31,9 @@
 .weather ul {
   margin: 0;
   padding: 0;
+}
+.weather-body {
+  text-align: center;
 }
 .header {
   margin-bottom: 30px;
@@ -50,6 +61,7 @@ footer a {
   color: bisque;
 }
 .forecast {
+  margin-top: 5px;
   text-align: center;
 }
 .forecast-temp-max {
