@@ -18,7 +18,7 @@ export default function Climate(props) {
         <div className="col-6">
           <div className="d-flex align-items-center">
             {" "}
-            <img src={props.data.icon} alt="broken clouds" />{" "}
+            <img src={props.data.icon} alt={props.data.description} />{" "}
             <Units celsius={props.data.temperature} />
           </div>
         </div>

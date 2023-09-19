@@ -49,3 +49,12 @@ footer a {
 .btn-primary {
   color: bisque;
 }
+.forecast {
+  text-align: center;
+}
+.forecast-temp-max {
+  margin-right: 5px;
+}
+.forecast-temp-min {
+  opacity: 0.8;
+}
