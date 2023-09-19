@@ -1,0 +1,51 @@
+.App {
+  margin: 0 auto;
+  width: 600px;
+}
+.weather {
+  padding: 10px 10px 10px 10px;
+  border: 1.5px solid #dadde1;
+  margin-top: 50px;
+  border-radius: 10px;
+  background-color: #fffbfa;
+}
+.weather li {
+  list-style: none;
+}
+.weather h1 {
+  margin: 20px 0 0 0;
+}
+.temperature {
+  font-weight: bold;
+  line-height: 64px;
+  font-size: 64px;
+}
+.weather ul {
+  margin: 0;
+  padding: 0;
+}
+.header {
+  margin-bottom: 30px;
+}
+.weather img {
+  height: 94px;
+  display: inline-block;
+}
+.unit {
+  position: relative;
+  top: -32px;
+  text-transform: none;
+}
+.unit a {
+  text-decoration: none;
+}
+footer {
+  margin-top: 10px;
+  text-align: center;
+}
+footer a {
+  text-decoration: none;
+}
+.btn-primary {
+  color: bisque;
+}
