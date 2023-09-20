@@ -1,5 +1,3 @@
-import React, { useState } from "react";
-
 export default function getDate() {
   const today = new Date();
   const month = today.getMonth();
@@ -19,5 +17,5 @@ export default function getDate() {
     "Nov",
     "Dec",
   ];
-  return `${months[month]} ${date}`;
+  return `${months[month]} ${date} ${year}`;
 }
