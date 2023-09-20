@@ -12,7 +12,7 @@ function App() {
             target="blank"
           >
             {" "}
-            Sheillah
+            Sheillah Wafula
           </a>
           , open sourced on
           <a
